@@ -1,0 +1,55 @@
+.navegacion{
+    display: flex;
+    background-color: rgb(80, 82, 196);
+    justify-content: space-between;
+}
+.navegacion{
+    height: 100%;
+    align-self: center;
+}
+.navegacion_datos {
+    display: flex;
+    align-items: flex-end;
+
+}
+.navegacion_datos li{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.navegacion_datos li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.seccion_sobremi{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.imagen_index{
+    height: 300px;
+    border-radius: 20px;
+}
+.div_botonsobremi{
+    padding: 20px;
+    
+
+}
+.boton_sobremi{
+    background-color: rgb(82, 62, 100);
+    font-size: 20px;
+    padding: 25px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    height: 200px;
+
+    
+}
